@@ -13,13 +13,14 @@ body {
     background:var(--light-gray);
     font-family: 'Outfit', sans-serif;
     text-align: center;
-    height: 100%;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 .container {
     width:300px;
     background:var(--white);
-    margin:5% auto;
     border-radius: 15px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
     padding:1em;
